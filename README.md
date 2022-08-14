@@ -1,27 +1,17 @@
 # Text Summarization
 
-Perhaps you have never asked yourself the question: Do films show a gender bias?
+“I don’t want a full report, just give me a summary of the results”. I have often found myself in this situation – both in college as well as my professional life. We prepare a comprehensive report and the teacher/supervisor only has time to read the summary.
 
-You may think that this is an absurd question, that in virtually every film there are actresses and characters that represent and empower women. However, is this true?
+Sounds familiar? Well, I decided to do something about it. Manually converting the report to a summarized version is too time taking, right? Could I lean on Natural Language Processing (NLP) techniques to help me out?
 
-This is exactly what Alison Bechdel once asked herself, giving rise to what is known as the Bechdel Test.
-
-Bechdel herself mentions as a precedent the essay "A Room of One's Own" (1929), where Virginia Woolf criticises that in most fictional literature the presence of a female character is only due to her link with an existing male character, and the relevance of the female character derives from this link.
-
-The test criteria are as follows:
-1. At least two female characters appear
-2. who are engaged in a conversation
-3. that does not have a male as its subject.
-
-This exploratory data analysis will analyse whether there is a gender gap in Spanish cinema.
+This is where the awesome concept of Text Summarization using Deep Learning really helped me out. It solves the one issue which kept bothering me before – now our model can understand the context of the entire text. It’s a dream come true for all of us who need to come up with a quick summary of a document!
 
 ## Project description
 ✏️ - 
 
 🛠 - Jupyter Notebooks have been used because of their ease of use and convenience for exploratory data analysis, along with the Python language.
 
-🚩 - The main challenge was to find the necessary data on Spanish films, as there was no database with such information. Therefore, CSV files have been created, through web scraping, containing this information.
+🚩 - The main challenge was to understand how recurrent neural networks, in particular LSTM networks, work. In addition, it was necessary to review concepts related to NLP.
 
 ## How to use the project
-There is no executable, as this is an exploratory data analysis. The notebook with the analysis and the functions to scrape the information about the films can be found in the "src" folder.
-The CSV-files with the scraped information can be found in the folder "data".
+There is no executable. The notebook with the text summarizer and the attention layer needed for the project can be found in the "src" folder.
