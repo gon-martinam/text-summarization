@@ -15,3 +15,10 @@ This is where the awesome concept of Text Summarization using Deep Learning real
 
 ## How to use the project
 There is no executable. The notebook with the text summarizer and the attention layer needed for the project can be found in the "src" folder.
+
+## Future lines of research
+- [x] Increasing the training dataset size and build the model. The generalization capability of a deep learning model enhances with an increase in the training dataset size.
+- [ ] Implementing Bi-Directional LSTM which is capable of capturing the context from both the directions and results in a better context vector.
+- [ ] Using the beam search strategy for decoding the test sequence instead of using the greedy approach (argmax).
+- [x] Evaluating the performance of the model based on the BLEU score.
+- [ ] Implementing pointer-generator networks and coverage mechanisms.
